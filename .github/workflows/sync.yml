@@ -27,4 +27,5 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
           PROFILE: ${{ secrets.PROFILE }}
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         run: uv run python main.py
